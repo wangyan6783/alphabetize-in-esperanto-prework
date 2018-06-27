@@ -14,7 +14,7 @@ ESPERANTO_ALPHABET = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
   arr.sort_by {|ele|
-    ele.split("").collect { |char|
+    ele.split("").each { |char|
       ESPERANTO_ALPHABET.index(char)
     }
   }
