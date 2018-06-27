@@ -7,7 +7,7 @@ def alphabetize(arr)
   }
   
   sorted.sort_by{|sentence|
-    list.index(sentence[0])
+    alphabet.index(sentence[0])
   }
 end
 
