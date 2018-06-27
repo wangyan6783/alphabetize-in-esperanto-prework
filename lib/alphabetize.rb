@@ -5,8 +5,8 @@ def alphabetize(arr)
       alphabet.index(char)
     }
   }
-  sorted
-  new_arr.sort_by{|sentence|
+  
+  sorted.sort_by{|sentence|
     list.index(sentence[0])
   }
 end
