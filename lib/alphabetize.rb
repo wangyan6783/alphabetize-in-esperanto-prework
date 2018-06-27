@@ -1,12 +1,8 @@
 def alphabetize(arr)
   sorted = arr.sort_by {|ele|
     ele.each_char { |char|
-      E.index(char)
+      ESPERANTO_ALPHABET.index(char)
     }
-  }
-  
-  sorted.sort_by{|sentence|
-    alphabet.index(sentence[0])
   }
 end
 
