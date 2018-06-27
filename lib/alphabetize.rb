@@ -5,4 +5,5 @@ def alphabetize(arr)
       ALPHABET.index(char)
     }
   }
+  arr
 end
