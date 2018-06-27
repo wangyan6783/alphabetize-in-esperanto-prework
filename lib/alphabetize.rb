@@ -20,9 +20,10 @@
 # end
 
 def alphabetize(arr)
-  arr.sort_by do |phrase|
+  sorted arr.sort_by do |phrase|
     phrase.split("").map do |letter|
       alphabet.index(letter)
     end
   end
+  sorted
 end
