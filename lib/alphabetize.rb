@@ -32,7 +32,5 @@ def alphabetize(arr)
     } 
   }
   
-  new_arr.sort_by{|sentence|
-    list.index(sentence[0])
-  }
+  new_arr
 end
