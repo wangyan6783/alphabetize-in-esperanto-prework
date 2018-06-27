@@ -1,8 +1,8 @@
 def alphabetize(arr)
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by| {|ele|
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.sort_by! {|ele|
     ele.each_char { |char|
-      ALPHABET.index(char)
+      alphabet.index(char)
     }
   }
   arr
