@@ -1,3 +1,6 @@
+
+ESPERANTO_ALPHABET = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 def alphabetize(arr)
   sorted = arr.sort_by {|ele|
     ele.each_char { |char|
