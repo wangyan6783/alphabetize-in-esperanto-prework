@@ -6,6 +6,9 @@ def alphabetize(arr)
     }
   }
   sorted
+  new_arr.sort_by{|sentence|
+    list.index(sentence[0])
+  }
 end
 
 # def alphabetize(arr)
